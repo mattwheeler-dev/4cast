@@ -1,2 +1,5 @@
 # 4cast
-Current weather + 3 day forecast using Weather API
+
+## Current Weather & 3 - Day Forecast
+
+Built using Weather API (free edition) from WeatherAPI.com
