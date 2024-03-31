@@ -14,7 +14,7 @@ body {
 	width: 100vw;
 	padding: 2rem;
 	color: #fff;
-	background-image: url("/images/weather-bg.jpg");
+	background-image: url("images/weather-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow-x: clip;
