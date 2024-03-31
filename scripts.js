@@ -28,7 +28,7 @@ cBtn.addEventListener("click", () => {
 // GET & DISPLAY CURRENT WEATHER + 3-DAY FORECAST (IMPERIAL MEASUREMENTS DEFAULT)
 async function getForecast(target, units = "imp") {
 	const response = await fetch(
-		`http://api.weatherapi.com/v1/forecast.json?key=994937b9ec824b068a6232904242603&q=${target}&days=3&aqi=no&alerts=no`,
+		`https://api.weatherapi.com/v1/forecast.json?key=994937b9ec824b068a6232904242603&q=${target}&days=3&aqi=no&alerts=no`,
 		{ mode: "cors" }
 	);
 	const weatherData = await response.json();
