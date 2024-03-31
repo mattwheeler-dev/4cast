@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- LINK FAVICON -->
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+		<!-- LINK STYLESHEET -->
+		<link rel="stylesheet" href="styles.css" />
+		<!-- LINK & DEFER JS -->
+		<script src="scripts.js" defer></script>
+		<!-- LINK & DEFER FONTAWESOME -->
+		<script
+			src="https://kit.fontawesome.com/1e723eb9a7.js"
+			crossorigin="anonymous"
+			defer
+		></script>
+		<title>4Cast | Weather App</title>
+	</head>
+	<body>
+		<header>
+			<h1>
+				<i class="fa-solid fa-temperature-three-quarters"></i>
+				4Cast
+			</h1>
+			<p>Get it? It's 4 days of weather, AND it sounds like FOREcast...</p>
+
+				<input
+					type="text"
+					name="search"
+					id="search"
+					placeholder="Search Location..." autocomplete="off"
+				/>
+				<button type="submit" id="search-btn">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</button>
+
+			<div id="unit-btns">
+				<button class="unit-btn" id="f-btn">&deg;F / mph</button>
+				<button class="unit-btn" id="c-btn">&deg;C / kph</button>
+			</div>
+		</header>
+
+		<section id="current">
+			<h1>Location: <span id="location"></span></h2>
+			<h3 class="date"></h3>
+			<p class="temp"></p>
+			<div>
+				<h4 class="weather"></h4>
+				<img src="#" alt="" class="icon" />
+			</div>
+			<div>
+				<p class="feels-temp"></p>
+				<p class="humidity"></p>
+				<p class="wind"></p>
+			</div>
+		</section>
+
+		<section id="forecast">
+			<h2>3 - Day Forecast</h2>
+			<div class="day">
+				<h3 class="date"></h3>
+				<h4 class="weather"></h4>
+				<img src="#" alt="" class="icon" />
+				<p class="temp"></p>
+				<p class="low"></p>
+				<p class="high"></p>
+			</div>
+
+			<div class="day">
+				<h3 class="date"></h3>
+				<h4 class="weather"></h4>
+				<img src="#" alt="" class="icon" />
+				<p class="temp"></p>
+				<p class="low"></p>
+				<p class="high"></p>
+			</div>
+
+			<div class="day">
+				<h3 class="date"></h3>
+				<h4 class="weather"></h4>
+				<img src="#" alt="" class="icon" />
+				<p class="temp"></p>
+				<p class="low"></p>
+				<p class="high"></p>
+			</div>
+		</section>
+
+    <footer>
+      <p>Find Me:
+        <a href="https://www.linkedin.com/in/mattwheeler-dev/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/mattwheeler-dev" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      </p>
+      <p>Built using <a href="https://www.weatherapi.com/" title="Free Weather API" target="_blank">WeatherAPI</a></p>
+      <p>Background Photo Credit: 
+        <a href="https://unsplash.com/photos/green-trees-on-mountain-under-cloudy-sky-during-daytime-kcvlb727mn8" target="_blank"> NOAA on Unsplash</a>
+      </p>
+    </footer>
+	</body>
+</html>

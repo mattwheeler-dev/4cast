@@ -1,0 +1,266 @@
+/* IMPORT GOOGLE FONT [ NUNITO: 200 - 1000 ] */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap");
+
+/* GLOBAL DEFAULTS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nunito", sans-serif;
+}
+
+body {
+	height: fit-content;
+	width: 100vw;
+	padding: 2rem;
+	color: #fff;
+	background-image: url("/images/weather-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x: clip;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3,
+h4 {
+	width: 100%;
+}
+
+h2 {
+	font-weight: 600;
+}
+
+h3 {
+	font-weight: 300;
+}
+
+h4 {
+	margin-top: 1rem;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+p {
+	font-weight: 300;
+}
+
+/* ALL BUTTONS */
+button {
+	cursor: pointer;
+	color: #fff;
+	background-color: #101010;
+	border: 1px solid #ffffff50;
+	transition: all 0.3s;
+}
+
+button:hover {
+	border: 2px solid #fff;
+	background-color: #000;
+}
+
+button:active {
+	scale: 1.1;
+}
+
+/* HEADER ( HEADINGS & SEACH BOX )*/
+header {
+	text-align: center;
+}
+
+header p {
+	font-size: 0.8rem;
+}
+
+/* SEARCH AREA */
+input,
+#search-btn {
+	height: 2.5rem;
+	margin: 1rem 0;
+	font-size: 1rem;
+	background-color: #101010;
+}
+
+input {
+	width: 15rem;
+	padding-left: 1rem;
+	color: #fff;
+	border: 1px solid #ffffff50;
+	border-radius: 0.5rem 0 0 0.5rem;
+	transition: all 0.3s;
+}
+
+input::placeholder {
+	color: #fff;
+	font-weight: 300;
+}
+
+input:focus {
+	background-color: #000;
+	outline: 2px solid #fff;
+}
+
+#search-btn {
+	width: 3rem;
+	border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* UNIT BUTTONS */
+.unit-btn {
+	height: 2rem;
+	width: 5rem;
+	margin: 0 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.unit-btn.active {
+	border: 2px solid #fff;
+}
+
+/* SECTIONS */
+section {
+	max-width: 1100px;
+	margin: auto;
+	text-align: center;
+	text-shadow: 0 0 0.3rem #000;
+}
+
+.weather {
+	font-size: 1.5rem;
+}
+
+.icon {
+	height: 8rem;
+}
+
+/* CURRENT WEATHER SECTION */
+#current {
+	height: fit-content;
+	margin-top: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#location {
+	text-transform: capitalize;
+}
+
+#current div,
+#current .temp {
+	width: 30%;
+}
+
+#current .temp {
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+#current .icon {
+	height: 12rem;
+}
+
+.humidity {
+	margin: 1rem 0;
+}
+
+/* FORECAST SECTION */
+#forecast {
+	height: fit-content;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.day {
+	height: 22rem;
+	width: 30%;
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: #00000090;
+	border: 3px solid #ffffff80;
+	border-radius: 1rem;
+	box-shadow: 0 0 0.3rem #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.day .temp {
+	font-size: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+	margin-top: 2rem;
+	text-align: center;
+	text-shadow: 0 0 0.3rem #000;
+}
+
+footer p {
+	margin: 0.25rem;
+}
+
+footer a,
+footer i {
+	transition: all 0.2s linear;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+footer i {
+	margin-left: 0.5rem;
+	font-size: 1.5rem;
+}
+
+footer i:hover {
+	scale: 1.3;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 600px) {
+	/* CURRENT SECTION */
+	#current {
+		margin: 1rem auto;
+		justify-content: space-evenly;
+	}
+
+	#current .temp,
+	#current div {
+		width: 40%;
+	}
+
+	#current .icon {
+		height: 10rem;
+	}
+
+	#current p {
+		margin: 0.2rem 0;
+	}
+
+	/* FORECAST SECTION */
+	#forecast {
+		flex-direction: column;
+	}
+
+	.day {
+		height: fit-content;
+		width: 80%;
+	}
+
+	.day .icon {
+		height: 6rem;
+	}
+}
