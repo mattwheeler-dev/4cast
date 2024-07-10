@@ -1,8 +1,10 @@
 # 4cast
 
-## Current Weather & 3 - Day Forecast
-
 <img src='https://github.com/mattwheeler-dev/4cast/assets/105622101/590fac62-5934-47c3-93f4-098ffd6a625b' width='500' />
+
+<p>
+  Get the current weather, and the forecast for the next 3 days! 
+</p>
 
 <p>
   Search by city name, and use the buttons to swap between imperial and metric units of measurement.
