@@ -7,7 +7,7 @@
 </p>
 
 <p>
-  Search by city name, and use the buttons to swap between imperial and metric units of measurement.
+  The easiest search method is to search by city name. You can also use the buttons to swap between imperial and metric units of measurement.
 </p>
 
 <p>Built using
