@@ -10,6 +10,8 @@
   The easiest search method is to search by city name. You can also use the buttons to swap between imperial and metric units of measurement.
 </p>
 
+<a href="https://mattwheeler-dev.github.io/4cast/" target="_blank">Check it out here</a>
+
 <p>Built using
   <a href="https://www.weatherapi.com/" title="Free Weather API" target="_blank">WeatherAPI</a>
 </p>
