@@ -1,6 +1,6 @@
 # 4cast
 
-<img src='https://github.com/mattwheeler-dev/4cast/assets/105622101/590fac62-5934-47c3-93f4-098ffd6a625b' width='500' />
+<img width="500" alt="4cast" src="https://github.com/user-attachments/assets/c49241f5-7d91-4b16-8855-d835aa53e0e0" />
 
 <p>
   Get the current weather, and the forecast for the next 3 days! 
