@@ -16,6 +16,3 @@
   <a href="https://www.weatherapi.com/" title="Free Weather API" target="_blank">WeatherAPI</a>
 </p>
 
-<p>Background Photo Credit: 
-  <a href="https://unsplash.com/photos/green-trees-on-mountain-under-cloudy-sky-during-daytime-kcvlb727mn8" target="_blank"> NOAA on Unsplash</a>
-</p>
